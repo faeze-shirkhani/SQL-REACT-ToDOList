@@ -1,0 +1,15 @@
+# GET  http://localhost:3000/tasks
+
+# POST  http://localhost:3000/tasks
+# Content-Type: application/json
+
+# {
+#     "title" : "lean useContext"
+# }
+
+PUT http://localhost:3000/tasks/68db02e0fe6e1e4ba6740496
+Content-Type: application/json
+
+{
+    "isEditing" : "false"
+}
