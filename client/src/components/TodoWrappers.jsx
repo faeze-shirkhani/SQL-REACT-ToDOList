@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TodoForm from "./TodoForm";
 import Todos from "./Todos";
 import EditTodoForm from "./EditTodoForm";
-const URL = "http://localhost:5000/tasks";
+const URL = "https://todo-backend-9i9w.onrender.com/tasks";
 
 function TodoWrapper() {
   const [todos, setTodos] = useState([]); // store tasks
